@@ -66,16 +66,36 @@ a[href$=".md5"]:before {
 
 /* Compression */
 
+a[href$=".7z"]:before {
+   background: url(../images/icons/archive.png);
+}
+
 a[href$=".bz2"]:before {
-   background: url(../images/icons/bz2.png);
+   background: url(../images/icons/archive.png);
 }
 
 a[href$=".gz"]:before {
-   background: url(../images/icons/gz.png);
+   background: url(../images/icons/archive.png);
+}
+
+a[href$=".tar"]:before {
+   background: url(../images/icons/archive.png);
+}
+
+a[href$=".tar.bz2"]:before {
+   background: url(../images/icons/archive.png);
 }
 
 a[href$=".tar.gz"]:before {
-   background: url(../images/icons/tar.gz.png);
+   background: url(../images/icons/archive.png);
+}
+
+a[href$=".rar"]:before {
+   background: url(../images/icons/archive.png);
+}
+
+a[href$=".zip"]:before {
+   background: url(../images/icons/archive.png);
 }
 
 /* Vagrant */
